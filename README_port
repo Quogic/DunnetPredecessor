@@ -1,0 +1,11 @@
+Porting this old game so that it can run again is a difficult proposition, but I hope it can be done.  The
+difficulty lies in the fact that it used a library called "Comred", which utilized the JSYS (system call) on 
+Tops-20 that allowed for command completion in the standard way of that OS.  So (as in the modern Dunnet), when you
+login tot he computer, you feel like you are on a Tops-20 computer.
+
+Tops-20 had the concept of "guidewords" for arguments, and if you hit a question mark it would list all of the choices.
+
+Twenex.org is a Tops-20-running Decsystem-20 emulator, that allows free guest accounts.  It has Maclisp, but not Comred library.
+It also doesn't seem to have (let). 
+
+I've gotten it sort-of working, up to the Tops-20 part, on there...
